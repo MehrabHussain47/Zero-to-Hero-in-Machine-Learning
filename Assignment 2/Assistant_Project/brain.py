@@ -1,7 +1,7 @@
 import google.generativeai as genai # pip install -q -U google-generativeai # python -m pip install -U google-generativeai
 import skills  # Import your skills file
 
-genai.configure(api_key="YOUR_API_KEY_HERE")
+genai.configure(api_key="YOUR_API_KEY_HERE")    # I have forgotten my Gemini API key
 
 def call_llm(query):
     """Phase 2: LLM Fallback for general questions."""
