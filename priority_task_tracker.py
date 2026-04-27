@@ -68,7 +68,6 @@ class TaskManager:
         except ValueError:
             print("Please enter a valid number!")
 
-
 manager = TaskManager()
 
 while True:
